@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #333333;
-    --secondary-color: #Ff0000;
-    --tertiary-color: #FFFFFF;
+  --primary-color: #333333;
+  --secondary-color: #ff0000;
+  --tertiary-color: #ffffff;
 }
 
 .text-primary {
@@ -24,9 +24,38 @@ body {
 }
 
 /* NAVBAR */
-nav a.active{
-    font-weight: bold;
-    color: var(--secondary-color);
+nav a.active {
+  font-weight: bold;
+  color: var(--secondary-color);
 }
 
+/* HOMEPAGE */
+/* HERO SECTION*/
+.hero-image {
+  background-image: linear-gradient(
+      rgba(243, 13, 243, 0.212),
+      rgba(236, 16, 225, 0.281)
+    ),
+    url("../src/assets/Images/Oil.jpg");
+  background-size: cover;
+}
 
+@media (min-width: 1024px) {
+  /*HERO SECTION*/
+  .hero-image {
+    background-image: url("/src/assets/Images/Oil.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 97%;
+    height: 92%;
+  }
+  .hero {
+    background-color: var(--secondary-color);
+    height: 38rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
