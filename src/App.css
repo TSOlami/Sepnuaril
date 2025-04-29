@@ -1,9 +1,32 @@
-#root {
+:root {
     --primary-color: #333333;
-    --secondary-color: #FF0000;
+    --secondary-color: #Ff0000;
     --tertiary-color: #FFFFFF;
-  margin: 0 auto;
-  padding: 2rem;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-tertiary {
+  color: var(--tertiary-color);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+}
+
+/* NAVBAR */
+nav a.active{
+    font-weight: bold;
+    color: var(--secondary-color);
 }
 
 
