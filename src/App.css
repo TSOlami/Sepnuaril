@@ -1,0 +1,9 @@
+#root {
+    --primary-color: #333333;
+    --secondary-color: #FF0000;
+    --tertiary-color: #FFFFFF;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
