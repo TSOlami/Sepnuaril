@@ -16,7 +16,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow dark:bg-gray-900">
+    <nav className="bg-white shadow-xl dark:bg-gray-900">
       <div className="container px-2 py-4 mx-auto">
         <div className="lg:flex lg:items-center bg-white dark:bg-gray-900">
           <div className="flex items-center justify-between lg:ml-9 dark:bg-gray-900">
