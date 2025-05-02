@@ -124,6 +124,121 @@ const Homepage = () => {
           </div>
         </section>
       </div>
+
+      <div>
+        <div className="flex items-center justify-center mt-10 mx-4 md:mx-4">
+          <div className="border-t-2 border-[var(--primary-color)] w-48 md:w-96"></div>
+          <span className="px-6 md:px-14 text-secondary text-lg font-medium uppercase whitespace-nowrap">
+            Our Services
+          </span>
+          <div className="border-t-2 border-[var(--primary-color)] w-48 md:w-96"></div>
+        </div>
+
+        <div className="grid grid-cols-1 justify-between space-y-8 p-6 mx-auto md:space-y-0 md:py-12 md:space-x-6 md:grid-cols-3 md:items-center md:justify-center">
+          <div className="container mb-6">
+            <div className="card bg-[var(--primary-color)] text-tertiary w-72 md:w-48 lg:w-72 shadow-xl mx-auto">
+              <figure>
+                <img
+                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                  alt="Shoes"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Card Title</h2>
+                <p>
+                  A card component has a figure, a body part, and inside body
+                  there are title and actions parts
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="container mb-6">
+            <div className="card bg-[var(--primary-color)] text-tertiary w-72 md:w-48 lg:w-72 shadow-xl mx-auto">
+              <figure>
+                <img
+                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                  alt="Shoes"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Card Title</h2>
+                <p>
+                  A card component has a figure, a body part, and inside body
+                  there are title and actions parts
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="container mb-6">
+            <div className="card bg-[var(--primary-color)] text-tertiary w-72 md:w-48 lg:w-72 shadow-xl mx-auto">
+              <figure>
+                <img
+                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                  alt="Shoes"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Card Title</h2>
+                <p>
+                  A card component has a figure, a body part, and inside body
+                  there are title and actions parts
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="container mb-6">
+            <div className="card bg-[var(--primary-color)] text-tertiary w-72 md:w-48 lg:w-72 shadow-xl mx-auto">
+              <figure>
+                <img
+                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                  alt="Shoes"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Card Title</h2>
+                <p>
+                  A card component has a figure, a body part, and inside body
+                  there are title and actions parts
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="container mb-6">
+            <div className="card bg-[var(--primary-color)] text-tertiary w-72 md:w-48 lg:w-72 shadow-xl mx-auto">
+              <figure>
+                <img
+                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                  alt="Shoes"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Card Title</h2>
+                <p>
+                  A card component has a figure, a body part, and inside body
+                  there are title and actions parts
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="container mb-6">
+            <div className="card bg-[var(--primary-color)] text-tertiary w-72 md:w-48 lg:w-72 shadow-xl mx-auto">
+              <figure>
+                <img
+                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                  alt="Shoes"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Card Title</h2>
+                <p>
+                  A card component has a figure, a body part, and inside body
+                  there are title and actions parts
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
