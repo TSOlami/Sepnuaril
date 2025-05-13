@@ -9,23 +9,6 @@ const Contact = () => {
             CONTACT US
           </h1>
         </div>
-        {/* <div className="p-6 flex flex-col items-center justify-center text-center">
-          <h2 className="text-secondary font-extrabold text-3xl lg:text-4xl p-2">
-            PLAN, <span className="text-primary">BUILD,</span> MANAGE
-          </h2>
-          <p className="p-4 text-md font-medium">
-            At Sepnuaril, we explore, develop, and deliver world-class energy
-            solutions that fuel industries and drive economic growth. Every
-            successful energy venture begins with a vision. At Sepnuaril, we
-            turn that vision into reality through cutting-edge exploration,
-            advanced production, and strategic distribution. From upstream
-            operations to refining and infrastructure development, we take a
-            comprehensive approach that ensures efficiency, sustainability, and
-            long-term reliability. Backed by innovation and industry expertise,
-            we are committed to powering the future with safe, responsible, and
-            high-performing energy solutions.
-          </p>
-        </div> */}
       </section>
 
       <div>
@@ -69,10 +52,10 @@ const Contact = () => {
           <div className="flex md:flex-1 p-6 bg-base-300 shadow-md h-[14rem]"></div>
         </section>
 
-        <section className="relative dark:bg-gray-900">
-          <div className="container relative z-10 flex flex-col lg:flex-row items-center justify-between p-2 md:p-6 mx-auto lg:py-16">
+        <section className="dark:bg-gray-900">
+          <div className="flex flex-col lg:flex-row items-center justify-between p-2 md:p-6 mx-auto lg:py-16">
             {/* TEXT */}
-            <div className="w-full h-auto lg:w-1/2 px-2 md:px-4">
+            <div className="w-full px-2 md:px-4">
               <div className="text-center shadow-lg lg:text-left bg-[var(--primary-color)] dark:bg-gray-900/70 p-4 rounded">
                 <h1 className="text-md font-semibold tracking-wide text-[var(--tertiary-color)] dark:text-white lg:text-2xl pb-3">
                   Interested in a career?
@@ -138,9 +121,9 @@ const Contact = () => {
             </div>
 
             {/* FORM */}
-            <div className="w-full h-0 lg:w-1/2 lg:h-auto relative md:static shadow-xl">
+            <div className="w-full relative shadow-xl">
               <section class="bg-white dark:bg-gray-900">
-                <div class="py-8 lg:py-12 px-4 mx-auto max-w-screen-md">
+                <div class="py-8 lg:py-12 px-4 mx-auto">
                   <h2 class="mb-2 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
                     Contact Us
                   </h2>

@@ -244,10 +244,10 @@ const Homepage = () => {
       </div>
 
       <div>
-        <section className="relative dark:bg-gray-900">
-          <div className="container relative z-10 flex flex-col lg:flex-row items-center justify-between p-2 md:p-6 mx-auto lg:py-16">
+        <section className="dark:bg-gray-900">
+          <div className="flex flex-col lg:flex-row items-center justify-between p-2 md:p-6 mx-auto lg:py-16">
             {/* TEXT */}
-            <div className="w-full h-auto lg:w-1/2 px-2 md:px-4">
+            <div className="w-full px-2 md:px-4">
               <div className="text-center shadow-lg lg:text-left bg-[var(--primary-color)] dark:bg-gray-900/70 p-4 rounded">
                 <h1 className="text-md font-semibold tracking-wide text-[var(--tertiary-color)] dark:text-white lg:text-2xl pb-3">
                   Interested in a career?
@@ -313,9 +313,9 @@ const Homepage = () => {
             </div>
 
             {/* FORM */}
-            <div className="w-full h-0 lg:w-1/2 lg:h-auto relative md:static shadow-xl">
+            <div className="w-full relative shadow-xl">
               <section class="bg-white dark:bg-gray-900">
-                <div class="py-8 lg:py-12 px-4 mx-auto max-w-screen-md">
+                <div class="py-8 lg:py-12 px-4 mx-auto">
                   <h2 class="mb-2 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
                     Contact Us
                   </h2>
