@@ -1,20 +1,23 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+//IMAGES
+import about from "../../assets/Images/about.jpg";
+
 const Homepage = () => {
   return (
     <>
-      <div className="hero shadow-xl">
+      <div className="hero homepagehero shadow-xl">
         <div className="hero-image w-full bg-[var(--secondary-color)] bg-center bg-cover h-[38rem]">
           <div className="flex items-center justify-center w-full h-full bg-gray-900/40">
             <div className="text-center">
-              <h1 className="text-4xl font-semibold text-white lg:text-4xl p-3">
-                Powering the future with Reliable Energy Solutions
+              <h1 className="text-4xl font-extrabold text-white lg:text-4xl p-3 lg:p-6">
+                POWERING THE FUTURE WITH RELIABLE ENERGY SOLUTIONS
               </h1>
-              <p className="text-2xl text-white p-2 mb-4">
+              <p className="text-2xl text-white p-2 mb-4 font-medium">
                 Welcome to SEPNUARIL - Powering progress!
               </p>
-              <p className="text-xl text-white m-6">
+              <p className="text-xl text-white m-6 font-normal">
                 We are committed to delivering oil and gas solutions that drive
                 industries forward. With a focus on efficiency, innovation and
                 sustainability, we are your trusted partner in energy.
@@ -28,7 +31,7 @@ const Homepage = () => {
         <div className="flex items-center justify-center mt-10 mx-4 md:mx-4">
           <div className="border-t-2 border-[var(--primary-color)] w-48 md:w-96"></div>
           <span className="px-6 md:px-14 text-secondary text-lg font-medium uppercase whitespace-nowrap">
-            Features
+            FEATURES
           </span>
           <div className="border-t-2 border-[var(--primary-color)] w-48 md:w-96"></div>
         </div>
@@ -95,7 +98,7 @@ const Homepage = () => {
             <div className="w-full lg:w-1/2 px-2 md:px-4">
               <div className="text-center lg:text-left bg-none lg:bg-[var(--secondary-color)] dark:bg-gray-900/70 p-4 rounded">
                 <h1 className="text-3xl font-semibold tracking-wide text-[var(--tertiary-color)] dark:text-white lg:text-4xl pb-3">
-                  About Us
+                  ABOUT US
                 </h1>
                 <p className="text-base text-[var(--tertiary-color)] dark:text-gray-300 text-justify">
                   At Sepnuaril, we are dedicated to powering industries with
@@ -117,7 +120,7 @@ const Homepage = () => {
             <div className="w-full h-0 lg:w-1/2 lg:h-auto relative md:static shadow-xl">
               <img
                 className="object-cover w-full h-full lg:object-contain p-2 lg:p-0"
-                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                src={about}
                 alt="Freemann Firms"
               />
             </div>
@@ -249,7 +252,7 @@ const Homepage = () => {
                 <h1 className="text-md font-semibold tracking-wide text-[var(--tertiary-color)] dark:text-white lg:text-2xl pb-3">
                   Interested in a career?
                 </h1>
-                <p className="text-base text-sm text-[var(--tertiary-color)] dark:text-gray-300 text-justify p-4">
+                <p className="text-sm text-[var(--tertiary-color)] dark:text-gray-300 text-justify p-4">
                   At Sepnuaril, we believe that our people are our greatest
                   asset. We're always on the lookout for talented, passionate,
                   and forward-thinking individuals to join our growing team.
@@ -291,19 +294,20 @@ const Homepage = () => {
                     from verified company sources.
                   </li>
                 </ul>
-                <h1 className="text-md font-semibold tracking-wide text-[var(--tertiary-color)] dark:text-white lg:text-xl pb-2 pt-4">Trade Partner or Vendor? </h1>
+                <h1 className="text-md font-semibold tracking-wide text-[var(--tertiary-color)] dark:text-white lg:text-xl pb-2 pt-4">
+                  Trade Partner or Vendor?{" "}
+                </h1>
                 <p className="text-sm text-[var(--tertiary-color)] dark:text-gray-300 text-justify pb-4">
-                  Let’s Work Together We’re committed
-                  to building strong, transparent, and mutually beneficial
-                  relationships with trade partners. If you're a contractor,
-                  supplier, or service provider looking to work with Sepnuaril,
-                  please complete our Trade Partner Prequalification process.
-                  This ensures compliance, alignment with our values, and a
-                  shared commitment to safety and excellence. Other Questions or
-                  Requests? For all other inquiries, including collaborations,
-                  support, or general information: 📄 Please complete the
-                  contact form, and a member of our team will get back to
-                  you promptly.
+                  Let’s Work Together We’re committed to building strong,
+                  transparent, and mutually beneficial relationships with trade
+                  partners. If you're a contractor, supplier, or service
+                  provider looking to work with Sepnuaril, please complete our
+                  Trade Partner Prequalification process. This ensures
+                  compliance, alignment with our values, and a shared commitment
+                  to safety and excellence. Other Questions or Requests? For all
+                  other inquiries, including collaborations, support, or general
+                  information: 📄 Please complete the contact form, and a member
+                  of our team will get back to you promptly.
                 </p>
               </div>
             </div>
