@@ -18,9 +18,9 @@ const AppRoutes = () => {
       element: <Layout />,
       children: [
         { index: true, element: <Homepage /> },
-        { path: "/about", element: <About /> },
-        { path: "/contact", element: <Contact /> },
-        { path: "/services", element: <Services /> },
+        { path: "about", element: <About /> },
+        { path: "contact", element: <Contact /> },
+        { path: "services", element: <Services /> },
       ],
     },
   ]);
