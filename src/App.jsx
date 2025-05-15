@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
+
 //React Router
-import { useRoutes, BrowserRouter } from "react-router-dom";
+import { useRoutes, HashRouter } from "react-router-dom";
 
 //Components
 import Homepage from "./components/Pages/Home";
@@ -29,9 +30,9 @@ const AppRoutes = () => {
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <AppRoutes />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
