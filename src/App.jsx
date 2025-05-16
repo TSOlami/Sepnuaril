@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 
 //React Router
-import { useRoutes, HashRouter } from "react-router-dom";
+import { useRoutes, BrowserRouter } from "react-router-dom";
 
 //Components
 import Homepage from "./components/Pages/Home";
@@ -30,9 +30,9 @@ const AppRoutes = () => {
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <AppRoutes />
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
