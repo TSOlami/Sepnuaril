@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+
 //React Router
 import { useRoutes, BrowserRouter } from "react-router-dom";
 
@@ -17,9 +18,9 @@ const AppRoutes = () => {
       element: <Layout />,
       children: [
         { index: true, element: <Homepage /> },
-        { path: "/about", element: <About /> },
-        { path: "/contact", element: <Contact /> },
-        { path: "/services", element: <Services /> },
+        { path: "about", element: <About /> },
+        { path: "contact", element: <Contact /> },
+        { path: "services", element: <Services /> },
       ],
     },
   ]);
@@ -29,7 +30,7 @@ const AppRoutes = () => {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <AppRoutes />
     </BrowserRouter>
   );
