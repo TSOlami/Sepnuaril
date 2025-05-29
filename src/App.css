@@ -2,10 +2,25 @@
   --primary-color: #333333;
   --secondary-color: #ff0000;
   --tertiary-color: #ffffff;
+  --hover-color: #0273e4;
+  --text-color: #222222;
+  --bg-color: #ffffff; /* Light background for normal mode */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #f0f0f0;
+    --secondary-color: #ff4d4d;
+    --tertiary-color: #1a1a1a;
+    --hover-color: #339cff;
+    --text-color: #e0e0e0;
+    --bg-color: #121212; /* Dark background */
+  }
 }
 
 .text-primary {
   color: var(--primary-color);
+  font-size: medium;
 }
 
 .text-secondary {
@@ -14,6 +29,11 @@
 
 .text-tertiary {
   color: var(--tertiary-color);
+}
+
+.text-hover:hover {
+  color: var(--hover-color);
+  transition: color 0.3s ease;
 }
 
 body {
@@ -29,12 +49,17 @@ nav a.active {
   color: var(--secondary-color);
 }
 
+nav a.hover {
+  color: var(--hover-color);
+  transition: color 0.3s ease;
+}
+
 /* HOMEPAGE */
 /* HERO SECTION*/
 .hero-image {
   background-image: linear-gradient(
-      rgba(243, 13, 243, 0.212),
-      rgba(236, 16, 225, 0.281)
+      rgba(47, 13, 243, 0.212),
+      rgba(31, 16, 236, 0.281)
     ),
     url("../src/assets/Images/Oil.jpg");
   background-size: cover;
@@ -47,8 +72,8 @@ nav a.active {
 
 .about-hero {
   background-image: linear-gradient(
-      rgba(243, 13, 243, 0.212),
-      rgba(236, 16, 225, 0.281)
+      rgba(47, 13, 243, 0.212),
+      rgba(31, 16, 236, 0.281)
     ),
     url("../src/assets/Images/aboutpage.jpg");
   background-size: cover;
@@ -59,19 +84,19 @@ nav a.active {
 }
 
 .about-hero-content {
-    max-width: 30%;
-    align-items: right;
-    padding: 7rem;
-    background: linear-gradient(
-      rgba(190, 41, 15, 0.212),
-      rgba(238, 11, 11, 0.281)
-    )
+  max-width: 30%;
+  align-items: right;
+  padding: 7rem;
+  background: linear-gradient(
+    rgba(47, 13, 243, 0.212),
+    rgba(31, 16, 236, 0.281)
+  );
 }
 
 .service-hero {
   background-image: linear-gradient(
-      rgba(243, 13, 243, 0.212),
-      rgba(236, 16, 225, 0.281)
+      rgba(47, 13, 243, 0.212),
+      rgba(31, 16, 236, 0.281)
     ),
     url("../src/assets/Images/servicepage.jpg");
   background-size: cover;
@@ -83,19 +108,19 @@ nav a.active {
 }
 
 .service-hero-content {
-    max-width: 30%;
-    align-items: right;
-    padding: 7rem;
-    background: linear-gradient(
-      rgba(190, 41, 15, 0.212),
-      rgba(238, 11, 11, 0.281)
-    )
+  max-width: 30%;
+  align-items: right;
+  padding: 7rem;
+  background: linear-gradient(
+    rgba(47, 13, 243, 0.212),
+    rgba(31, 16, 236, 0.281)
+  );
 }
 
 .contact-hero {
   background-image: linear-gradient(
-      rgba(243, 13, 243, 0.212),
-      rgba(236, 16, 225, 0.281)
+      rgba(47, 13, 243, 0.212),
+      rgba(31, 16, 236, 0.281)
     ),
     url("../src/assets/Images/contactpage.jpg");
   background-size: cover;
@@ -107,24 +132,20 @@ nav a.active {
 }
 
 .contact-hero-content {
-    max-width: 30%;
-    align-items: right;
-    padding: 7rem;
-    background: linear-gradient(
-      rgba(190, 41, 15, 0.212),
-      rgba(238, 11, 11, 0.281)
-    )
+  max-width: 30%;
+  align-items: right;
+  padding: 7rem;
+  background: linear-gradient(
+    rgba(47, 13, 243, 0.212),
+    rgba(31, 16, 236, 0.281)
+  );
 }
-
 
 /* Mobile-first: image as background */
 @media (max-width: 1024px) {
   .responsive-hero {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.4)
-      ),
-      url('../src/assets/Images/about.jpg'); /* or external link */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../src/assets/Images/about.jpg"); /* or external link */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -134,29 +155,28 @@ nav a.active {
     display: none;
   }
 
-    /*ABOUT PAGE*/
+  /*ABOUT PAGE*/
   .about-hero-content {
     max-width: 100%;
     align-items: left;
     padding: 7rem;
     background: linear-gradient(
-      rgba(190, 41, 15, 0.212),
-      rgba(238, 11, 11, 0.281)
-    )
-}
+      rgba(47, 13, 243, 0.212),
+      rgba(31, 16, 236, 0.281)
+    );
+  }
 
- /*SERVICE PAGE*/
+  /*SERVICE PAGE*/
   .service-hero-content {
     max-width: 100%;
     align-items: center;
     padding: 7rem;
     background: linear-gradient(
-      rgba(190, 41, 15, 0.212),
-      rgba(238, 11, 11, 0.281)
-    )
+      rgba(47, 13, 243, 0.212),
+      rgba(31, 16, 236, 0.281)
+    );
+  }
 }
-}
-
 
 @media (min-width: 1024px) {
   /*HERO SECTION*/
@@ -178,7 +198,7 @@ nav a.active {
   }
 
   /*SECTION 3*/
-     .responsive-hero {
+  .responsive-hero {
     background-image: none;
   }
 
