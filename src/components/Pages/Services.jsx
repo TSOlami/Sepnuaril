@@ -38,18 +38,18 @@ const Services = () => {
         </div>
 
         <section className="flex flex-col pt-6 md:pt-12 md:flex-row md:space-y-0 md:items-center md:justify-center">
-          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem]">
+          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900 ">
             Plan (Exploration & Production) : We harness cutting-edge technology
             and in-depth geological analysis to identify, evaluate, and unlock
             high-potential oil and gas reserves. Our strategic exploration and
             precision drilling techniques maximize resource recovery while
             ensuring environmental responsibility.
           </div>
-          <div className="flex md:flex-1 p-6 bg-base-300 shadow-md h-[14rem]"></div>
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem]"></div>
         </section>
         <section className="flex flex-col-reverse md:flex-row md:space-y-0 md:items-center md:justify-center">
-          <div className="flex md:flex-1 p-6 bg-base-300 shadow-md h-[14rem]"></div>
-          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem]">
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem]"></div>
+          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900 ">
             Build (Refining & Processing) : Sepnuaril develops world-class
             refining and processing facilities designed for efficiency,
             sustainability, and high-yield production. Our state-of-the-art
@@ -58,14 +58,14 @@ const Services = () => {
           </div>
         </section>
         <section className="flex flex-col md:flex-row md:space-y-0 md:items-center md:justify-center">
-          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem]">
+          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900 ">
             Maintain (Energy Trading & Distribution) : With a seamless supply
             chain and global market access, we ensure the uninterrupted flow of
             energy resources. Our advanced logistics, storage networks, and
             strategic partnerships guarantee timely and efficient delivery of
             crude oil, natural gas, and refined products worldwide.
           </div>
-          <div className="flex md:flex-1 p-6 bg-base-300 shadow-md h-[14rem]"></div>
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem]"></div>
         </section>
       </div>
     </>

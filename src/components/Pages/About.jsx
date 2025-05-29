@@ -43,44 +43,44 @@ const About = () => {
         </div>
 
         <section className="flex flex-col pt-6 md:pt-12 md:flex-row md:space-y-0 md:items-center md:justify-center">
-          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem]">
+          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900">
             Integrity & Accountability – We operate with honesty, transparency,
             and responsibility, ensuring trust and ethical business practices in
             all our operations.
           </div>
-          <div className="flex md:flex-1 p-6 bg-base-300 shadow-md h-[14rem]"></div>
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem]"></div>
         </section>
         <section className="flex flex-col-reverse md:flex-row md:space-y-0 md:items-center md:justify-center">
-          <div className="flex md:flex-1 p-6 bg-base-300 shadow-md h-[14rem]"></div>
-          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem]">
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem]"></div>
+          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900">     
             Innovation & Excellence – We embrace cutting-edge technology and
             industry best practices to drive efficiency, sustainability, and
             superior performance.
           </div>
         </section>
         <section className="flex flex-col md:flex-row md:space-y-0 md:items-center md:justify-center">
-          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem]">
+          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900">     
             Safety & Sustainability – Protecting people, communities, and the
             environment is at the heart of our operations, ensuring long-term
             energy solutions with minimal impact.
           </div>
-          <div className="flex md:flex-1 p-6 bg-base-300 shadow-md h-[14rem]"></div>
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem]"></div>
         </section>
         <section className="flex flex-col-reverse md:flex-row md:space-y-0 md:items-center md:justify-center">
-          <div className="flex md:flex-1 p-6 bg-base-300 shadow-md h-[14rem]"></div>
-          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem]">
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem]"></div>
+          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900">     
             Innovation & Excellence – We embrace cutting-edge technology and
             industry best practices to drive efficiency, sustainability, and
             superior performance.
           </div>
         </section>
         <section className="flex flex-col md:flex-row md:space-y-0 md:items-center md:justify-center">
-          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem]">
+          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900">     
             Safety & Sustainability – Protecting people, communities, and the
             environment is at the heart of our operations, ensuring long-term
             energy solutions with minimal impact.
           </div>
-          <div className="flex md:flex-1 p-6 bg-base-300 shadow-md h-[14rem]"></div>
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem]"></div>
         </section>
       </div>
     </>

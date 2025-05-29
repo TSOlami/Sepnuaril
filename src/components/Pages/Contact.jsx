@@ -21,17 +21,16 @@ const Contact = () => {
         </div>
 
         <section className="flex flex-col pt-6 md:pt-12 md:flex-row md:space-y-0 md:items-center md:justify-center">
-          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem]">
-            GENERAL ENQUIRY
+            <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900">
             <br />
             <br />
             info@sepnuaril.com
           </div>
-          <div className="flex md:flex-1 p-6 bg-base-300 shadow-md h-[14rem]"></div>
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem]"></div>
         </section>
         <section className="flex flex-col-reverse md:flex-row md:space-y-0 md:items-center md:justify-center">
-          <div className="flex md:flex-1 p-6 bg-base-300 shadow-md h-[14rem]"></div>
-          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem]">
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem]"></div>
+          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900">
             COOPERATE OFFICEHQ
             <br />
             <br />
@@ -41,20 +40,19 @@ const Contact = () => {
           </div>
         </section>
         <section className="flex flex-col md:flex-row md:space-y-0 md:items-center md:justify-center">
-          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem]">
-            BRANCH OFFICEBranch
+          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900">
+            BRANCH OFFICE
             <br />
             <br />
             Address..................................................................
             <br />
             Number.........................................................................
           </div>
-          <div className="flex md:flex-1 p-6 bg-base-300 shadow-md h-[14rem]"></div>
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem]"></div>
         </section>
 
-        <section className="dark:bg-gray-900">
+        {/* <section className="dark:bg-gray-900">
           <div className="flex flex-col lg:flex-row items-center justify-between p-2 md:p-6 mx-auto lg:py-16">
-            {/* TEXT */}
             <div className="w-full px-2 md:px-4">
               <div className="text-center shadow-lg lg:text-left bg-[var(--primary-color)] dark:bg-gray-900/70 p-4 rounded">
                 <h1 className="text-md font-semibold tracking-wide text-[var(--tertiary-color)] dark:text-white lg:text-2xl pb-3">
@@ -120,17 +118,12 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* FORM */}
             <div className="w-full relative shadow-xl">
               <section class="bg-white dark:bg-gray-900">
                 <div class="py-8 lg:py-12 px-4 mx-auto">
                   <h2 class="mb-2 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
                     Contact Us
                   </h2>
-                  {/* <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-                    Got a technical issue? Want to send feedback about a beta
-                    feature? Need details about our Business plan? Let us know.
-                  </p> */}
                   <form action="#" class="space-y-6">
                     <div>
                       <label
@@ -202,7 +195,7 @@ const Contact = () => {
               </section>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     </>
   );

@@ -16,15 +16,15 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-xl dark:bg-gray-900">
+    <nav className="bg-white shadow-xl dark:bg-black">
       <div className="container px-2 py-4 mx-auto">
-        <div className="lg:flex lg:items-center bg-white dark:bg-gray-900">
-          <div className="flex items-center justify-between lg:ml-9 dark:bg-gray-900">
+        <div className="lg:flex lg:items-center bg-white dark:bg-black">
+          <div className="flex items-center justify-between lg:ml-9 dark:bg-black">
             <div className="flex items-center justify-between p-1 w-full text-base">
               <NavLink to="/" className="">
-                <img className="w-auto h-10 sm:h-7" src={img} alt="" />
+                <img className="w-auto h-10 md:h-14 " src={img} alt="" />
               </NavLink>
-              <h1 className="hidden lg:block p-1 text-primary uppercase font-bold ">
+              <h1 className="hidden lg:block p-1 text-primary uppercase font-bold dark:text-white">
                 SEPNUARIL OIL AND GAS
               </h1>
             </div>
@@ -62,7 +62,7 @@ const Navbar = () => {
                   ? "translate-x-0 opacity-100 "
                   : "opacity-0 -translate-x-full "
               }` +
-              "absolute inset-x-0 z-20 flex-1 px-6 lg:px-0 py-4 transition-all duration-300 ease-in-out bg-white dark:bg-gray-900 lg:mt-0 lg:p-1 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center lg:justify-around w-full text-primary"
+              "absolute inset-x-0 z-20 flex-1 px-6 lg:px-0 py-4 transition-all duration-300 ease-in-out bg-white dark:bg-black lg:mt-0 lg:p-1 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center lg:justify-around w-full text-primary"
             }
           >
             <div>
@@ -72,11 +72,11 @@ const Navbar = () => {
                     return (
                       <li
                         key={item.id}
-                        className="nav mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-primary dark:hover:text-gray-200"
+                        className="nav mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 text-hover dark:hover:text-gray-200"
                       >
                         <NavLink
                           to={item.path}
-                          className="nav mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 font-medium hover:text-secondary hover:underline dark:hover:text-primaryColor dark:text-white"
+                          className="nav mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 font-medium text-hover hover:underline dark:hover:text-gray-200  dark:text-white"
                         >
                           {item.title}
                         </NavLink>
@@ -87,7 +87,7 @@ const Navbar = () => {
                   return (
                     <li
                       key={item.id}
-                      className="nav mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 font-medium hover:text-secondary hover:underline dark:hover:text-gray-200 active"
+                      className="nav mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 font-medium text-hover hover:underline dark:hover:text-gray-200 active"
                     >
                       <NavLink to={item.path}>{item.title}</NavLink>
                     </li>
@@ -101,26 +101,26 @@ const Navbar = () => {
                 <a
                   href="https://wa.link/yz70e7"
                   target="_blank"
-                  className="mx-2 text-gray-600 transition-colors duration-300 transform dark:text-gray-300 hover:text-secondary dark:hover:text-gray-300"
+                  className="mx-2 text-hover text-gray-600 transition-colors duration-300 transform dark:text-gray-300 hover:text-secondary dark:hover:text-hover"
                   aria-label="Reddit"
                 >
-                  <BsWhatsapp />
+                  <BsWhatsapp style={{ fontSize: "24px" }} />
                 </a>
                 <a
                   href="https://www.instagram.com/freemann_firms"
                   target="_blank"
-                  className="mx-2 text-gray-600 transition-colors duration-300 transform dark:text-gray-300 hover:text-secondary dark:hover:text-gray-300"
+                  className="mx-2 text-hover text-gray-600 transition-colors duration-300 transform dark:text-gray-300 hover:text-secondary dark:hover:text-hover"
                   aria-label="Reddit"
                 >
-                  <FiInstagram />
+                  <FiInstagram style={{ fontSize: "24px" }} />
                 </a>
                 <a
                   href="https://twitter.com/FreemannFirms"
                   target="_blank"
-                  className="mx-2 text-gray-600 transition-colors duration-300 transform dark:text-gray-300 hover:text-secondary dark:hover:text-gray-300"
+                  className="mx-2 text-hover text-gray-600 transition-colors duration-300 transform dark:text-gray-300 dark:hover:text-hover"
                   aria-label="Reddit"
                 >
-                  <BsTwitter />
+                  <BsTwitter style={{ fontSize: "24px" }} />
                 </a>
               </div>
             </div>
