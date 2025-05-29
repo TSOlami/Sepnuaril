@@ -6,7 +6,7 @@ import img from "../../assets/Images/logo.png";
 
 const Footer = () => {
   return (
-    <footer className="footer sm:footer-horizontal bg-[var(--primary-color)] text-neutral-content p-10 shadow-lg">
+    <footer className="footer sm:footer-horizontal bg-[var(--primary-color)] text-neutral-content p-10 shadow-lg dark:bg-black">
       <nav>
         <NavLink to="/" className="">
           <img className="w-auto h-10 md:h-22 rounded-md" src={img} alt="" />
