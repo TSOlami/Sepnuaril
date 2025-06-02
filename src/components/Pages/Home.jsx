@@ -10,16 +10,17 @@ const Homepage = () => {
         <div className="hero-image w-full bg-[var(--secondary-color)] bg-center bg-cover h-[38rem]">
           <div className="flex items-center justify-center w-full h-full bg-gray-900/40">
             <div className="text-center">
-              <h1 className="text-4xl font-extrabold text-white lg:text-4xl p-3 lg:p-6">
-                POWERING THE FUTURE WITH RELIABLE ENERGY SOLUTIONS
+              <h1 className="text-3xl font-extrabold text-white lg:text-4xl p-3 lg:p-6">
+                Welcome to Sepnuaril Oil and Gas Services
               </h1>
-              <p className="text-2xl text-white p-2 mb-4 font-medium">
+              {/* <p className="text-2xl text-white p-2 mb-4 font-medium">
                 Welcome to SEPNUARIL - Powering progress!
-              </p>
-              <p className="text-xl text-white m-6 font-normal">
-                We are committed to delivering oil and gas solutions that drive
-                industries forward. With a focus on efficiency, innovation and
-                sustainability, we are your trusted partner in energy.
+              </p> */}
+              <p className="text-2xl text-white m-6 font-normal">
+                At Sepnuaril, we are commited to delivering top-tier oilfield
+                services with integrity, precision, and professionalism.
+                SEPNUARIL stands as a beacon of quality and reliability in the
+                oil and gas sector.
               </p>
             </div>
           </div>
@@ -100,17 +101,21 @@ const Homepage = () => {
                   ABOUT US
                 </h1>
                 <p className="text-base text-[var(--tertiary-color)] dark:text-gray-100 text-justify">
-                  At Sepnuaril, we are dedicated to powering industries with
-                  reliable oil and gas solutions. With a strong commitment to
-                  efficiency, innovation, and sustainability, we specialize in
-                  exploration, production, refining, and energy distribution.
-                  Our expertise spans across offshore and onshore operations,
-                  ensuring the highest standards of safety and environmental
-                  responsibility. Driven by technology and industry best
-                  practices, we provide tailored solutions that meet the
-                  evolving energy demands of businesses and communities. At
-                  Sepnuaril, we don’t just supply energy—we fuel progress and
-                  shape the future of the industry.
+                  SEPNUARIL Oil and Gas Services is a newly established oilfield
+                  servicing company founded by Olajide Adewusi, a seasoned
+                  Nigerian-American oilfield expert based in West Texas. With
+                  over a decade of hands-on technical and engineering experience
+                  in the oil and gas industry, Mr. Adewusi brings a wealth of
+                  knowledge and professionalism to the field. At SEPNUARIL, we
+                  are committed to delivering high-quality rig site services
+                  that reflect our integrity, technical excellence, and
+                  dedication to safety. We take pride in the expertise and
+                  professionalism of our trained, qualified, and experienced
+                  team, who ensure every project is executed with precision and
+                  efficiency. Strategically located in Midland, Texas, we
+                  proudly serve clients across the Permian Basin, New Mexico,
+                  and the broader United States, offering reliable oilfield
+                  support services both onshore and offshore.
                 </p>
               </div>
             </div>
@@ -204,109 +209,44 @@ const Homepage = () => {
 
             <section className="flex flex-col pt-6 md:pt-12 md:flex-row md:space-y-0 md:items-center md:justify-center">
               <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900">
-                GENERAL ENQUIRY
+                FOR INQUIRIES
                 <br />
                 <br />
-                info@sepnuaril.com
+                info@sepnuarilservices.com
               </div>
               <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem]"></div>
             </section>
             <section className="flex flex-col-reverse md:flex-row md:space-y-0 md:items-center md:justify-center">
               <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem]"></div>
-              <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900" >
-                COOPERATE OFFICE  - HQ
+              <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900">
+                FOR SERVICE RELATED SUPPORT
                 <br />
                 <br />
-                Address..................................................................
-                <br />
-                Number........................................................................
+                support@sepnuarilservices.com
               </div>
             </section>
             <section className="flex flex-col md:flex-row md:space-y-0 md:items-center md:justify-center">
               <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900">
-                BRANCH OFFICE
+                OFFICE ADDRESS
                 <br />
                 <br />
-                Address..................................................................
-                <br />
-                Number.........................................................................
+                Sepnuaril Oil and Gas Services 7506 Midland, Texas, 79708, USA
               </div>
               <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem]"></div>
             </section>
-            {/* <section class="bg-white dark:bg-gray-900">
-                <div class="py-8 lg:py-12 px-4 mx-auto">
-                  <h2 class="mb-2 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
-                    Contact Us
-                  </h2>
-                  <form action="#" class="space-y-6">
-                    <div>
-                      <label
-                        for="Name"
-                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                      >
-                        Your Full Name
-                      </label>
-                      <input
-                        type="name"
-                        id="name"
-                        class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                        placeholder="Full name"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <label
-                        for="email"
-                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                      >
-                        Your email
-                      </label>
-                      <input
-                        type="email"
-                        id="email"
-                        class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                        placeholder="Email"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <label
-                        for="subject"
-                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                      >
-                        Subject
-                      </label>
-                      <input
-                        type="text"
-                        id="subject"
-                        class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                        placeholder="Let us know how we can help you"
-                        required
-                      />
-                    </div>
-                    <div class="sm:col-span-2">
-                      <label
-                        for="message"
-                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
-                      >
-                        Your message
-                      </label>
-                      <textarea
-                        id="message"
-                        rows="6"
-                        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                        placeholder="Leave a comment..."
-                      ></textarea>
-                    </div>
-                    <button
-                      type="submit"
-                      class="py-3 px-5 text-sm font-medium text-center text-secondary border rounded-md bg-[var(--tertiary-color)] sm:w-fit hover:bg-[var(--primary-color)] hover:text-tertiary focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-                    >
-                      Send message
-                    </button>
-                  </form>
-                </div>
-              </section> */}
+            <section className="flex flex-col-reverse md:flex-row md:space-y-0 md:items-center md:justify-center">
+              <div className="md:flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem] hidden"></div>
+              <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900">
+                PHONE NUMBER
+                <br />
+                <br />
+                Phone
+                1..............................................................
+                <br />
+                Phone
+                2.......................................................................
+              </div>
+            </section>
           </div>
         </section>
       </div>
