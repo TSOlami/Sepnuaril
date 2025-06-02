@@ -8,9 +8,9 @@ import { navItems } from "./NavItems";
 import img from "../../assets/Images/logo.png";
 
 //ICONS//
-import { BsWhatsapp } from "react-icons/bs";
-import { BsTwitter } from "react-icons/bs";
 import { FiInstagram } from "react-icons/fi";
+import { BsFacebook } from "react-icons/bs";
+import { FaLinkedin } from "react-icons/fa";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -20,12 +20,16 @@ const Navbar = () => {
       <div className="container px-2 py-4 mx-auto">
         <div className="lg:flex lg:items-center bg-white dark:bg-black">
           <div className="flex items-center justify-between lg:ml-9 dark:bg-black">
-            <div className="flex items-center justify-between p-1 w-full text-base">
+            <div className="flex flex-col items-start md:flex-row md:items-center justify-between p-1 w-full text-base">
               <NavLink to="/" className="">
-                <img className="w-auto h-10 md:h-14 " src={img} alt="" />
+                <img
+                  className="w-auto h-10 md:h-12 rounded-md"
+                  src={img}
+                  alt=""
+                />
               </NavLink>
-              <h1 className="hidden lg:block p-1 text-primary uppercase font-bold dark:text-white">
-                SEPNUARIL OIL AND GAS
+              <h1 className="hidden lg:block p-1 text-xs uppercase italic font-thin dark:text-white">
+                ..Excellence in Oilfield Services & Rig Operations
               </h1>
             </div>
 
@@ -99,28 +103,28 @@ const Navbar = () => {
             <div className="flex justify-center mt-6 lg:flex lg:mt-0 lg:-mx-2 items-center">
               <div className="flex items-center mt-2 lg:mt-0">
                 <a
-                  href="https://wa.link/yz70e7"
+                  href="https://facebook.com/sepnuarilservices"
                   target="_blank"
                   className="mx-2 text-hover text-gray-600 transition-colors duration-300 transform dark:text-gray-300 hover:text-secondary dark:hover:text-hover"
                   aria-label="Reddit"
                 >
-                  <BsWhatsapp style={{ fontSize: "24px" }} />
+                  <BsFacebook style={{ Size: "18px" }} />
                 </a>
                 <a
-                  href="https://www.instagram.com/freemann_firms"
+                  href="https://www.instagram.com/sepnuarilservices"
                   target="_blank"
                   className="mx-2 text-hover text-gray-600 transition-colors duration-300 transform dark:text-gray-300 hover:text-secondary dark:hover:text-hover"
                   aria-label="Reddit"
                 >
-                  <FiInstagram style={{ fontSize: "24px" }} />
+                  <FiInstagram style={{ fontSize: "18px" }} />
                 </a>
                 <a
-                  href="https://twitter.com/FreemannFirms"
+                  href="https://linkedin.com/company/sepnuarilservices"
                   target="_blank"
                   className="mx-2 text-hover text-gray-600 transition-colors duration-300 transform dark:text-gray-300 dark:hover:text-hover"
                   aria-label="Reddit"
                 >
-                  <BsTwitter style={{ fontSize: "24px" }} />
+                  <FaLinkedin style={{ fontSize: "18px" }} />
                 </a>
               </div>
             </div>
