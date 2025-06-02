@@ -11,19 +11,17 @@ const Services = () => {
         </div>
         <div className="p-6 flex flex-col items-center justify-center text-center">
           <h2 className="text-secondary font-extrabold text-3xl lg:text-4xl p-2">
-            PLAN, <span className="text-primary">BUILD,</span> MANAGE
+            PLAN, <span className="text-black dark:text-gray-100">BUILD,</span> MANAGE
           </h2>
           <p className="p-4 text-md font-medium">
-            At Sepnuaril, we explore, develop, and deliver world-class energy
-            solutions that fuel industries and drive economic growth. Every
-            successful energy venture begins with a vision. At Sepnuaril, we
-            turn that vision into reality through cutting-edge exploration,
-            advanced production, and strategic distribution. From upstream
-            operations to refining and infrastructure development, we take a
-            comprehensive approach that ensures efficiency, sustainability, and
-            long-term reliability. Backed by innovation and industry expertise,
-            we are committed to powering the future with safe, responsible, and
-            high-performing energy solutions.
+            At SEPNUARIL Oil and Gas Services, we specialize in delivering
+            dependable oilfield services during Surface, Intermediate, and
+            Production Casing Runs, tailored to meet the unique needs of
+            drilling operations. Our workforce is always ready to serve 24/7 —
+            bringing technical expertise and industry knowledge to ensure smooth
+            and efficient rig site operations. Whether onshore or offshore, our
+            services are designed to enhance drilling efficiency, safety, and
+            performance.
           </p>
         </div>
       </section>
@@ -38,34 +36,73 @@ const Services = () => {
         </div>
 
         <section className="flex flex-col pt-6 md:pt-12 md:flex-row md:space-y-0 md:items-center md:justify-center">
-          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900 ">
-            Plan (Exploration & Production) : We harness cutting-edge technology
-            and in-depth geological analysis to identify, evaluate, and unlock
-            high-potential oil and gas reserves. Our strategic exploration and
-            precision drilling techniques maximize resource recovery while
-            ensuring environmental responsibility.
+          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
+            24/7 Onshore and Offshore Support
           </div>
-          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem]"></div>
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
         </section>
         <section className="flex flex-col-reverse md:flex-row md:space-y-0 md:items-center md:justify-center">
-          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem]"></div>
-          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900 ">
-            Build (Refining & Processing) : Sepnuaril develops world-class
-            refining and processing facilities designed for efficiency,
-            sustainability, and high-yield production. Our state-of-the-art
-            plants transform crude oil and natural gas into premium fuels,
-            petrochemicals, and other essential energy products.`
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
+          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
+            Oil and Gas Wells Control Tools
           </div>
         </section>
         <section className="flex flex-col md:flex-row md:space-y-0 md:items-center md:justify-center">
-          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900 ">
-            Maintain (Energy Trading & Distribution) : With a seamless supply
-            chain and global market access, we ensure the uninterrupted flow of
-            energy resources. Our advanced logistics, storage networks, and
-            strategic partnerships guarantee timely and efficient delivery of
-            crude oil, natural gas, and refined products worldwide.
+          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
+            Visual Thread Inspection (VTI)
           </div>
-          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem]"></div>
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
+        </section>
+        <section className="flex flex-col-reverse md:flex-row md:space-y-0 md:items-center md:justify-center">
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
+          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
+            Thread Representation & Graph Interpretation
+          </div>
+        </section>
+        <section className="flex flex-col md:flex-row md:space-y-0 md:items-center md:justify-center">
+          <div className="flex md:flex-1 p-5 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
+            Ensuring Compliance with Manufacturer Running Procedures
+          </div>
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
+        </section>
+        <section className="flex flex-col-reverse md:flex-row md:space-y-0 md:items-center md:justify-center">
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
+          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
+            Technical Support for Field Repairs
+          </div>
+        </section>
+        <section className="flex flex-col md:flex-row md:space-y-0 md:items-center md:justify-center">
+          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
+            Full Access to Connection Specs and Performance Data
+          </div>
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
+        </section>
+        <section className="flex flex-col-reverse md:flex-row md:space-y-0 md:items-center md:justify-center">
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
+          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
+            Roustabout / Casing Carers / Rollers
+          </div>
+        </section>
+        <section className="flex flex-col md:flex-row md:space-y-0 md:items-center md:justify-center">
+          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
+            Continuous Employee Training & Skill Upgrading
+          </div>
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
+        </section>
+        <section className="flex flex-col-reverse md:flex-row md:space-y-0 md:items-center md:justify-center">
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
+          <div className="flex md:flex-1 p-5 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
+            Coordination with Licensed Repair Facilities for Quality Assurance
+          </div>
+        </section>
+        <section className="flex flex-col md:flex-row md:space-y-0 md:items-center md:justify-center">
+          <div className="flex md:flex-1 p-5 bg-[var(--primary-color)] shadow-md text-white font-semibold uppercase text-xl h-[10rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
+            {" "}
+            Our Pledge - We are dedicated to precision, safety, and performance,
+            ensuring that every casing run or inspection is completed according
+            to the highest industry standards.
+          </div>
+          <div className="hidden md:flex md:flex-1 p-6 bg-base-900 shadow-md h-[10rem]"></div>
         </section>
       </div>
     </>
