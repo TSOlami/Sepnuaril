@@ -63,6 +63,8 @@ nav a.hover {
     ),
     url("../src/assets/Images/Oil.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .responsive-hero {
@@ -77,6 +79,7 @@ nav a.hover {
     ),
     url("../src/assets/Images/aboutpage.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   display: grid;
   width: 100%;
@@ -101,6 +104,7 @@ nav a.hover {
     url("../src/assets/Images/servicepage.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   display: grid;
   width: 100%;
   height: 100%;

@@ -16,18 +16,18 @@ const About = () => {
             DELIVERING IN EXCELLENCE IS ALL WE DO.
           </h2>
           <p className="p-4 text-md font-medium">
-            Since its humble beginning in 1937, Sepnuaril Oil & gas ltd. has
+            Since its humble beginning in 1937, Sepnuaril Oil & gas services. has
             grown as a family of hard-working individuals into a world-class
             workers Exploring new markets and partnerships, investing in
             diversity and our communities, and forging new opportunities, we are
             dedicated to serving our people, our neighbors, our partners and all
             those who aspire to build a better future within the oil and gas
-            industry. Sepnuaril Oil & gas ltd is committed to continuing our
+            industry. Sepnuaril Oil & gas services is committed to continuing our
             legacy through the integrity of our team members. Through the years,
             these core values have represented our company as well as each
-            individual that make our projects possible: Ownership, Integrity,,
+            individual that make our projects possible: Ownership, Integrity,
             Diversity and Community. These values, paired with our ambitious
-            vision and drive to succeed, are what define Hensel Phelps and will
+            vision and drive to succeed, are what define Sepnuaril Oil & gas services and will
             ensure our continued growth and excellence for generations to come.
           </p>
         </div>
@@ -44,7 +44,7 @@ const About = () => {
 
         <section className="flex flex-col pt-6 md:pt-12 md:flex-row md:space-y-0 md:items-center md:justify-center">
           <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900">
-            Integrity & Accountability – We operate with honesty, transparency,
+            INTEGRITY & ACCOUNTABILITY – We operate with honesty, transparency,
             and responsibility, ensuring trust and ethical business practices in
             all our operations.
           </div>
@@ -53,30 +53,14 @@ const About = () => {
         <section className="flex flex-col-reverse md:flex-row md:space-y-0 md:items-center md:justify-center">
           <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem]"></div>
           <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900">     
-            Innovation & Excellence – We embrace cutting-edge technology and
+            INNOVATION & EXCELLENCE – We embrace cutting-edge technology and
             industry best practices to drive efficiency, sustainability, and
             superior performance.
           </div>
         </section>
         <section className="flex flex-col md:flex-row md:space-y-0 md:items-center md:justify-center">
           <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900">     
-            Safety & Sustainability – Protecting people, communities, and the
-            environment is at the heart of our operations, ensuring long-term
-            energy solutions with minimal impact.
-          </div>
-          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem]"></div>
-        </section>
-        <section className="flex flex-col-reverse md:flex-row md:space-y-0 md:items-center md:justify-center">
-          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[14rem]"></div>
-          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900">     
-            Innovation & Excellence – We embrace cutting-edge technology and
-            industry best practices to drive efficiency, sustainability, and
-            superior performance.
-          </div>
-        </section>
-        <section className="flex flex-col md:flex-row md:space-y-0 md:items-center md:justify-center">
-          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[14rem] dark:bg-gray-100 dark:text-gray-900">     
-            Safety & Sustainability – Protecting people, communities, and the
+            SAFETY & SUSTAINABILITY – Protecting people, communities, and the
             environment is at the heart of our operations, ensuring long-term
             energy solutions with minimal impact.
           </div>
