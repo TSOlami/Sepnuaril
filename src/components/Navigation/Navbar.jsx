@@ -28,7 +28,7 @@ const Navbar = () => {
                   alt=""
                 />
               </NavLink>
-              <h1 className="hidden lg:block p-1 text-xs uppercase italic font-thin dark:text-white">
+              <h1 className="hidden lg:block p-1 text-xs font-semibold uppercase italic dark:text-white">
                 ..Excellence in Oilfield Services & Rig Operations
               </h1>
             </div>
