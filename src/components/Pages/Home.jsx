@@ -2,6 +2,60 @@ import React from "react";
 
 //IMAGES
 import about from "../../assets/Images/about.jpg";
+import features1 from "../../assets/Images/features1.jpg";
+import features2 from "../../assets/Images/features2.jpg";
+import features3 from "../../assets/Images/features3.jpg";
+import Services1 from "../../assets/Images/services1.jpg";
+import Services2 from "../../assets/Images/services2.jpg";
+import Services3 from "../../assets/Images/services3.jpg";
+
+const features = [
+  {
+    id: 1,
+    title: "Card Title 1",
+    description:
+      "A card component has a figure, a body part, and inside body there are title and actions parts.",
+    image: features1,
+  },
+  {
+    id: 2,
+    title: "Card Title 2",
+    description:
+      "A card component has a figure, a body part, and inside body there are title and actions parts.",
+    image: features2,
+  },
+  {
+    id: 3,
+    title: "Card Title 3",
+    description:
+      "A card component has a figure, a body part, and inside body there are title and actions parts.",
+    image: features3,
+  },
+];
+
+const services = [
+  {
+    id: 1,
+    title: "Oil & Gas Consulting",
+    description:
+      "Expert advisory for upstream, midstream, and downstream operations tailored to your business.",
+    image: Services1,
+  },
+  {
+    id: 2,
+    title: "Engineering Solutions",
+    description:
+      "Comprehensive engineering support from design to implementation with industry-best practices.",
+    image: Services2,
+  },
+  {
+    id: 3,
+    title: "Asset Management",
+    description:
+      "Maximize value and efficiency with strategic asset oversight and lifecycle planning.",
+    image: Services3,
+  },
+];
 
 const Homepage = () => {
   return (
@@ -36,58 +90,20 @@ const Homepage = () => {
           <div className="border-t-2 border-[var(--primary-color)] w-48 md:w-96"></div>
         </div>
 
-        <div className="flex flex-col justify-between space-y-8 p-6 mx-auto md:space-y-0 md:py-12 md:space-x-6 md:flex-row md:items-center md:justify-center">
-          <div className="container">
-            <div className="card bg-[var(--primary-color)] text-tertiary w-72 md:w-48 lg:w-72 shadow-xl mx-auto">
-              <figure>
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                  alt="Shoes"
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">Card Title</h2>
-                <p>
-                  A card component has a figure, a body part, and inside body
-                  there are title and actions parts
-                </p>
+        <div className="flex flex-col justify-between space-y-8 p-6 mx-auto md:space-y-0 md:py-12 md:space-x-6 md:flex-row md:items-start md:justify-center">
+          {features.map(({ id, title, description, image }) => (
+            <div className="container" key={id}>
+              <div className="card bg-[var(--primary-color)] text-tertiary w-72 h-48 shadow-xl mx-auto flex flex-col">
+                <figure className="w-full h-auto overflow-hidden">
+                  <img
+                    src={image}
+                    alt={title}
+                    className="w-full h-full object-cover"
+                  />
+                </figure>
               </div>
             </div>
-          </div>
-          <div className="container">
-            <div className="card bg-[var(--primary-color)] text-tertiary w-72 md:w-48 lg:w-72 shadow-xl mx-auto">
-              <figure>
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                  alt="Shoes"
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">Card Title</h2>
-                <p>
-                  A card component has a figure, a body part, and inside body
-                  there are title and actions parts
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="container">
-            <div className="card bg-[var(--primary-color)] text-tertiary w-72 md:w-48 lg:w-72 shadow-xl mx-auto">
-              <figure>
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                  alt="Shoes"
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">Card Title</h2>
-                <p>
-                  A card component has a figure, a body part, and inside body
-                  there are title and actions parts
-                </p>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
 
@@ -141,58 +157,20 @@ const Homepage = () => {
           <div className="border-t-2 border-[var(--primary-color)] w-48 md:w-96"></div>
         </div>
 
-        <div className="grid grid-cols-1 justify-between space-y-8 p-6 mx-auto md:space-y-0 md:py-12 md:space-x-6 md:grid-cols-3 md:items-center md:justify-center">
-          <div className="container mb-6">
-            <div className="card bg-[var(--primary-color)] text-tertiary w-72 md:w-48 lg:w-72 shadow-xl mx-auto">
-              <figure>
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                  alt="Shoes"
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">Card Title</h2>
-                <p>
-                  A card component has a figure, a body part, and inside body
-                  there are title and actions parts
-                </p>
+        <div className="grid grid-cols-1 gap-8 p-6 mx-auto md:grid-cols-3 md:py-12 md:items-center md:justify-center">
+          {services.map(({ id, title, image }) => (
+            <div className="container mb-6" key={id}>
+              <div className="card bg-[var(--primary-color)] text-tertiary w-72 h-48 shadow-xl mx-auto flex flex-col">
+                <figure className="w-full h-auto overflow-hidden">
+                  <img
+                    src={image}
+                    alt={title}
+                    className="w-full h-full object-cover"
+                  />
+                </figure>
               </div>
             </div>
-          </div>
-          <div className="container mb-6">
-            <div className="card bg-[var(--primary-color)] text-tertiary w-72 md:w-48 lg:w-72 shadow-xl mx-auto">
-              <figure>
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                  alt="Shoes"
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">Card Title</h2>
-                <p>
-                  A card component has a figure, a body part, and inside body
-                  there are title and actions parts
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="container mb-6">
-            <div className="card bg-[var(--primary-color)] text-tertiary w-72 md:w-48 lg:w-72 shadow-xl mx-auto">
-              <figure>
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                  alt="Shoes"
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">Card Title</h2>
-                <p>
-                  A card component has a figure, a body part, and inside body
-                  there are title and actions parts
-                </p>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
 
@@ -202,7 +180,7 @@ const Homepage = () => {
             <div className="flex items-center justify-center mt-10 mx-4 md:mx-4">
               <div className="border-t-2 border-[var(--primary-color)] w-48 md:w-96"></div>
               <span className="px-6 md:px-14 text-secondary text-lg font-medium uppercase whitespace-nowrap">
-                CONTACT
+                CONTACT US
               </span>
               <div className="border-t-2 border-[var(--primary-color)] w-48 md:w-96"></div>
             </div>
