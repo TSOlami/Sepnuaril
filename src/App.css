@@ -58,8 +58,8 @@ nav a.hover {
 /* HERO SECTION*/
 .hero-image {
   background-image: linear-gradient(
-      rgba(47, 13, 243, 0.212),
-      rgba(31, 16, 236, 0.281)
+      rgba(210, 209, 218, 0.212),
+      rgba(205, 204, 219, 0.281)
     ),
     url("../src/assets/Images/Oil.jpg");
   background-size: cover;
@@ -74,8 +74,8 @@ nav a.hover {
 
 .about-hero {
   background-image: linear-gradient(
-      rgba(47, 13, 243, 0.212),
-      rgba(31, 16, 236, 0.281)
+      rgba(210, 209, 218, 0.212),
+      rgba(178, 178, 189, 0.281)
     ),
     url("../src/assets/Images/aboutpage.jpg");
   background-size: cover;
@@ -98,17 +98,16 @@ nav a.hover {
 
 .service-hero {
   background-image: linear-gradient(
-      rgba(47, 13, 243, 0.212),
-      rgba(31, 16, 236, 0.281)
+      rgba(210, 209, 218, 0.212),
+      rgba(205, 204, 219, 0.281)
     ),
     url("../src/assets/Images/servicepage.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  display: grid;
+  display: block;
   width: 100%;
   height: 100%;
-  place-items: right;
 }
 
 .service-hero-content {
@@ -149,7 +148,7 @@ nav a.hover {
 @media (max-width: 1024px) {
   .responsive-hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url("../src/assets/Images/about.jpg"); /* or external link */
+      url("../src/assets/Images/about.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -186,9 +185,9 @@ nav a.hover {
   /*HERO SECTION*/
   .hero-image {
     background-image: url("/src/assets/Images/Oil.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
     width: 97%;
     height: 92%;
   }
@@ -208,5 +207,57 @@ nav a.hover {
 
   .responsive-hero img {
     display: block;
+  }
+
+  /* ABOUT */
+  .about-hero {
+    background-image: url("../src/assets/Images/aboutpage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    display: block;
+  }
+
+  .about-hero-content {
+    max-width: 30%;
+    height: 100%;
+    align-items: right;
+    padding: 7rem;
+  }
+  /*SERVICES */
+  .service-hero {
+    background-image: url("../src/assets/Images/servicepage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    display: block;
+  }
+  .service-hero-content {
+    max-width: 30%;
+    height: 100%;
+    align-items: right;
+    padding: 7rem;
+  }
+
+  /* CONTACT US */
+  .contact-hero {
+    background-image: url("../src/assets/Images/contactpage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    display: block;
+  }
+
+  .contact-hero-content {
+    max-width: 30%;
+    height: 100%;
+    align-items: right;
+    padding: 7rem;
   }
 }

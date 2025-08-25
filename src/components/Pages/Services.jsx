@@ -11,7 +11,8 @@ const Services = () => {
         </div>
         <div className="p-6 flex flex-col items-center justify-center text-center">
           <h2 className="text-secondary font-extrabold text-3xl lg:text-4xl p-2">
-            PLAN, <span className="text-black dark:text-gray-100">BUILD,</span> MANAGE
+            PLAN, <span className="text-black dark:text-gray-100">BUILD,</span>{" "}
+            MANAGE
           </h2>
           <p className="p-4 text-md font-medium">
             At SEPNUARIL Oil and Gas Services, we specialize in delivering
@@ -37,31 +38,31 @@ const Services = () => {
 
         <section className="flex flex-col pt-6 md:pt-12 md:flex-row md:space-y-0 md:items-center md:justify-center">
           <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
-            24/7 Onshore and Offshore Support
+            Field Service Representation
           </div>
           <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
         </section>
         <section className="flex flex-col-reverse md:flex-row md:space-y-0 md:items-center md:justify-center">
           <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
           <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
-            Oil and Gas Wells Control Tools
+            Visual Thread Inspection (VTI)
           </div>
         </section>
         <section className="flex flex-col md:flex-row md:space-y-0 md:items-center md:justify-center">
           <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
-            Visual Thread Inspection (VTI)
+            Graph Interpretation
           </div>
           <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
         </section>
         <section className="flex flex-col-reverse md:flex-row md:space-y-0 md:items-center md:justify-center">
           <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
           <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
-            Thread Representation & Graph Interpretation
+            Roustabouts
           </div>
         </section>
         <section className="flex flex-col md:flex-row md:space-y-0 md:items-center md:justify-center">
           <div className="flex md:flex-1 p-5 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
-            Ensuring Compliance with Manufacturer Running Procedures
+            Oil and Gas Well Control
           </div>
           <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
         </section>
@@ -73,26 +74,38 @@ const Services = () => {
         </section>
         <section className="flex flex-col md:flex-row md:space-y-0 md:items-center md:justify-center">
           <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
-            Full Access to Connection Specs and Performance Data
+            Casing Run Accessories Supply
           </div>
           <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
         </section>
         <section className="flex flex-col-reverse md:flex-row md:space-y-0 md:items-center md:justify-center">
           <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
           <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
-            Roustabout / Casing Carers / Rollers
+            Casing Runs Tools Supply
           </div>
         </section>
         <section className="flex flex-col md:flex-row md:space-y-0 md:items-center md:justify-center">
           <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
-            Continuous Employee Training & Skill Upgrading
+            Technical Support for Field Repairs
           </div>
           <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
         </section>
         <section className="flex flex-col-reverse md:flex-row md:space-y-0 md:items-center md:justify-center">
           <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
           <div className="flex md:flex-1 p-5 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
-            Coordination with Licensed Repair Facilities for Quality Assurance
+            Full Access to Connection Specs and Performance Data
+          </div>
+        </section>
+        <section className="flex flex-col md:flex-row md:space-y-0 md:items-center md:justify-center">
+          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
+            Ensuring Compliance with Manufacturer Running Procedures
+          </div>
+          <div className="md:flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
+        </section>
+        <section className="flex flex-col-reverse md:flex-row md:space-y-0 md:items-center md:justify-center">
+          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
+          <div className="flex md:flex-1 p-5 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
+            Continous Employees Training and Skills Upgrading
           </div>
         </section>
         <section className="flex flex-col md:flex-row md:space-y-0 md:items-center md:justify-center">
@@ -100,7 +113,7 @@ const Services = () => {
             {" "}
             Our Pledge - We are dedicated to precision, safety, and performance,
             ensuring that every casing run or inspection is completed according
-            to the highest industry standards.
+            to the highest industry standards
           </div>
           <div className="hidden md:flex md:flex-1 p-6 bg-base-900 shadow-md h-[10rem]"></div>
         </section>

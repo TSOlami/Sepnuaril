@@ -80,7 +80,7 @@ const Navbar = () => {
                       >
                         <NavLink
                           to={item.path}
-                          className="nav mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 font-medium text-hover hover:underline dark:hover:text-gray-200  dark:text-white"
+                          className="nav mt-2 transition-colors duration-300 transform md:mt-0 md:mx-4 font-medium text-hover hover:underline dark:hover:text-gray-200  dark:text-white"
                         >
                           {item.title}
                         </NavLink>
