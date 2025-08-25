@@ -23,13 +23,13 @@ const Footer = () => {
           Home
         </NavLink>
         <NavLink to="about" className="link link-hover">
-          About us
+          About Us
         </NavLink>
         <NavLink to="services" className="link link-hover">
-          Our services
+          Our Services
         </NavLink>
         <NavLink to="contact" className="link link-hover">
-          Contact
+          Contact Us
         </NavLink>
       </nav>
 
@@ -41,7 +41,7 @@ const Footer = () => {
             <a
               href="https://facebook.com/sepnuarilservices"
               target="_blank"
-              className="mr-2   text-hover text-gray-600 transition-colors duration-300 transform dark:text-gray-100 hover:text-secondary dark:hover:text-hover"
+              className="mr-2   text-hover text-gray-300 transition-colors duration-300 transform dark:text-gray-100 hover:text-secondary dark:hover:text-hover"
               aria-label="Reddit"
             >
               <BsFacebook style={{ fontSize: "24px" }} />
@@ -49,7 +49,7 @@ const Footer = () => {
             <a
               href="https://www.instagram.com/sepnuarilservices"
               target="_blank"
-              className="mx-2 text-hover text-gray-600 transition-colors duration-300 transform dark:text-gray-100 hover:text-secondary dark:hover:text-hover"
+              className="mx-2 text-hover text-gray-300 transition-colors duration-300 transform dark:text-gray-100 hover:text-secondary dark:hover:text-hover"
               aria-label="Reddit"
             >
               <FiInstagram style={{ fontSize: "24px" }} />
@@ -57,7 +57,7 @@ const Footer = () => {
             <a
               href="https://linkedin.com/company/sepnuarilservices"
               target="_blank"
-              className="mx-2 text-hover text-gray-600 transition-colors duration-300 transform dark:text-gray-100 dark:hover:text-hover"
+              className="mx-2 text-hover text-gray-300 transition-colors duration-300 transform dark:text-gray-100 dark:hover:text-hover"
               aria-label="Reddit"
             >
               <FaLinkedin style={{ fontSize: "24px" }} />
