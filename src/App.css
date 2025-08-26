@@ -57,11 +57,7 @@ nav a.hover {
 /* HOMEPAGE */
 /* HERO SECTION*/
 .hero-image {
-  background-image: linear-gradient(
-      rgba(210, 209, 218, 0.212),
-      rgba(205, 204, 219, 0.281)
-    ),
-    url("../src/assets/Images/Oil.jpg");
+  background-image: url("../src/assets/Images/Oil.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -73,11 +69,7 @@ nav a.hover {
 }
 
 .about-hero {
-  background-image: linear-gradient(
-      rgba(210, 209, 218, 0.212),
-      rgba(178, 178, 189, 0.281)
-    ),
-    url("../src/assets/Images/aboutpage.jpg");
+  background-image: url("../src/assets/Images/aboutpage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -87,7 +79,7 @@ nav a.hover {
 }
 
 .about-hero-content {
-  max-width: 30%;
+  max-width: 20%;
   align-items: right;
   padding: 7rem;
   background: linear-gradient(
@@ -97,11 +89,7 @@ nav a.hover {
 }
 
 .service-hero {
-  background-image: linear-gradient(
-      rgba(210, 209, 218, 0.212),
-      rgba(205, 204, 219, 0.281)
-    ),
-    url("../src/assets/Images/servicepage.jpg");
+  background-image: url("../src/assets/Images/servicepage.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -121,14 +109,11 @@ nav a.hover {
 }
 
 .contact-hero {
-  background-image: linear-gradient(
-      rgba(47, 13, 243, 0.212),
-      rgba(31, 16, 236, 0.281)
-    ),
-    url("../src/assets/Images/contactpage.jpg");
+  background-image: url("../src/assets/Images/contactpage.jpg");
   background-size: cover;
   background-position: center;
-  display: grid;
+  background-repeat: no-repeat;
+  display: block;
   width: 100%;
   height: 100%;
   place-items: right;
@@ -159,25 +144,44 @@ nav a.hover {
   }
 
   /*ABOUT PAGE*/
-  .about-hero-content {
-    max-width: 100%;
-    align-items: left;
-    padding: 7rem;
-    background: linear-gradient(
-      rgba(47, 13, 243, 0.212),
-      rgba(31, 16, 236, 0.281)
-    );
+  .about-hero {
+    height: 35rem;
   }
-
-  /*SERVICE PAGE*/
-  .service-hero-content {
+  .about-hero-content {
     max-width: 100%;
     align-items: center;
     padding: 7rem;
-    background: linear-gradient(
-      rgba(47, 13, 243, 0.212),
-      rgba(31, 16, 236, 0.281)
-    );
+    background: none;
+     color: white;
+    font-size: 2.2rem;
+  }
+
+  /*SERVICE PAGE*/
+  .service-hero {
+    height: 35rem;
+  }
+  .service-hero-content {
+    max-width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 7rem;
+    background: none;
+    color: white;
+    font-size: 2.2rem;
+  }
+
+  /*CONTACT PAGE*/
+  .contact-hero {
+    height: 35rem;
+  }
+  .contact-hero-content {
+    max-width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 7rem;
+    background: none;
+    color: var(--tertiary-color);
+    font-size: 2.2rem;
   }
 }
 
