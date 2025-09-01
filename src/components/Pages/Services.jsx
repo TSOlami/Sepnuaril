@@ -66,12 +66,6 @@ const Services = () => {
           </div>
           <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
         </section>
-        <section className="flex flex-col-reverse md:flex-row md:space-y-0 md:items-center md:justify-center">
-          <div className="flex md:flex-1 p-6 bg-base-900 shadow-md h-[5rem]"></div>
-          <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
-            Technical Support for Field Repairs
-          </div>
-        </section>
         <section className="flex flex-col md:flex-row md:space-y-0 md:items-center md:justify-center">
           <div className="flex md:flex-1 p-6 bg-[var(--primary-color)] shadow-md text-white font-medium h-[5rem] dark:bg-gray-100 dark:text-gray-900 justify-center text-center">
             Casing Run Accessories Supply
